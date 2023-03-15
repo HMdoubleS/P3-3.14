@@ -7,18 +7,18 @@
 /*-- FOOTER--*/
 
 .footer {
-display: flex;
-flex-direction: column;
-padding-top: 25px;
-background-color: #353535;
-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    background-color: #353535;
+    color: white;
 
-.footer__title {
-    margin-left: 30px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    font-weight: 500;
-}
+    &__title {
+        margin-left: 30px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
     &__nav {
         margin-left: 30px;
     }
