@@ -12,8 +12,8 @@
         &__return {
             display: inline-block;
             position: absolute;
-            left: 5%;
-            top: 4%;
+            left: 2%;
+            top: 2.5%;
             color: black;
         }
 
@@ -22,6 +22,7 @@
             margin: 15px 0;
         }
     }
+
     .menu__main {
         display: flex;
         flex-direction: column;
