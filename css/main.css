@@ -196,6 +196,7 @@
 /*-- FOOTER--*/
 .footer {
   display: flex;
+  width: 100%;
   flex-direction: column;
   padding-top: 25px;
   background-color: #353535;
@@ -274,28 +275,14 @@ i {
   }
   .restaurant__container {
     flex-direction: column;
+    width: 100%;
   }
   .restaurant__card {
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
   }
   .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
     height: 150px;
-  }
-  .restaurant__card-img-1 {
-    -o-object-position: left bottom;
-       object-position: left bottom;
-  }
-  .restaurant__card-img-2 {
-    -o-object-position: 0px -137px;
-       object-position: 0px -137px;
-  }
-  .restaurant__card-img-3 {
-    -o-object-position: 0px -50px;
-       object-position: 0px -50px;
-  }
-  .restaurant__card-img-4 {
-    -o-object-position: 0px -50px;
-       object-position: 0px -50px;
   }
   .restaurant__card-icon {
     right: 13.5%;
@@ -436,22 +423,25 @@ i {
   }
 }
 @media screen and (max-width: 767px) {
+  .header__return {
+    top: 4%;
+    left: 10%;
+  }
   .menu__image {
     width: 100%;
     height: 200px;
   }
   .menu__title {
-    margin: 15px 0 0 18px;
+    margin: 15px 0 0 45px;
   }
   /*-- HEART--*/
   .menu__title-icon {
-    top: 2%;
-    left: 89%;
+    top: 1%;
+    left: 50%;
   }
   /*-- CARDS--*/
   .choice__dish {
     width: 90%;
-    margin-left: 18px;
   }
   .choice__dish:hover .menu__text {
     width: 52%;
@@ -461,6 +451,10 @@ i {
   }
 }
 @media screen and (max-width: 992px) and (min-width: 767px) {
+  .header__return {
+    top: 1%;
+    left: 5%;
+  }
   .menu__image {
     height: 200px;
   }
@@ -470,7 +464,7 @@ i {
   /*-- HEART--*/
   .menu__title-icon {
     top: 2.2%;
-    left: 92.5%;
+    left: 88%;
   }
   /*-- CARDS--*/
   .choice__dish {
@@ -482,38 +476,6 @@ i {
   }
   .choice__dish:hover .dish__text {
     width: 70%;
-  }
-}
-@media screen and (min-width: 993px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  .menu__image {
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 35px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 6.5%;
-    left: 97.2%;
-  }
-  /*-- CARDS--*/
-  .course__dishes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .course {
-    width: 100%;
-  }
-  .course__dish:hover .dish__text {
-    width: 55%;
-  }
-  .dish__description {
-    font-size: 14px;
   }
 }
 @media screen and (min-width: 0px) {
@@ -541,6 +503,7 @@ i {
     flex-direction: column;
     position: relative;
     margin-top: 0;
+    width: 100%;
     background-color: #EAEAEA;
   }
   .menu__image {
@@ -559,7 +522,7 @@ i {
     font-weight: 400;
     padding-bottom: 3px;
     border-bottom: solid 3px;
-    margin: 0.75% 0.75% 0.75% 1%;
+    margin: 1% 0.75% 2% 1%;
     -o-border-image: linear-gradient(to right, #99e2d0 10%, #EAEAEA 10%) 100% 1;
        border-image: linear-gradient(to right, #99e2d0 10%, #EAEAEA 10%) 100% 1;
   }
@@ -567,8 +530,8 @@ i {
   .menu__title-icon {
     display: inline-block;
     position: absolute;
-    left: 97.2%;
-    padding-top: 1.5%;
+    left: 96%;
+    top: 2%;
     font-size: 20px;
   }
   /* css for solid heart before the hover */
@@ -742,7 +705,7 @@ i {
   * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    max-width: 1400px;
   }
   .header__title {
     display: flex;
@@ -821,6 +784,7 @@ i {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-right: 1%;
   }
   .explanation__wrap {
     display: flex;
@@ -877,6 +841,7 @@ i {
   }
   .restaurant__container {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0;
@@ -894,6 +859,7 @@ i {
     margin-bottom: 20px;
     border-radius: 15px;
     height: auto;
+    width: 36%;
     box-shadow: 2px 5px 5px lightgray;
   }
   .restaurant__card-info {

@@ -2,7 +2,7 @@
     * {
         box-sizing: border-box;
         padding: 0;
-        margin: 0;
+        max-width: 1400px;
     }
     
     .header__title {
@@ -88,6 +88,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-right: 1%;
     
         &__wrap {
             display: flex;
@@ -146,9 +147,10 @@
 
     .restaurant {
         background-color: #EAEAEA;
-
+        
         &__container {
             display: flex;
+            justify-content: center;
             align-items: center;
             width: 100%;
             margin: 0;
@@ -168,6 +170,7 @@
             margin-bottom: 20px;
             border-radius: 15px;
             height: auto;
+            width: 36%;
             box-shadow: 2px 5px 5px lightgray;
         }
         
@@ -192,7 +195,6 @@
         &__card-img-3,
         &__card-img-4 {
             align-items: center;
-            // z-index: 8;
             width: 100%;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
