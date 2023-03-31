@@ -232,252 +232,6 @@ i {
   margin-right: 10px;
 }
 
-/*--PHONE LAYOUT--*/
-@media screen and (max-width: 767px) {
-  .header__logo {
-    height: 55px;
-    width: 50%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: column;
-  }
-  .booking__info {
-    margin-left: 30px;
-  }
-  /*-- EXPLANATION--*/
-  .explanation {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .explanation__wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .explanation__num {
-    left: -12px;
-  }
-  .explanation__button {
-    width: 80%;
-    margin: 0 0 15px 25px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .restaurant__title {
-    padding-left: 5%;
-  }
-  .restaurant__container {
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__card {
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 150px;
-  }
-  .restaurant__card-icon {
-    right: 13.5%;
-    top: 76.8%;
-  }
-}
-/*-- TABLET--*/
-@media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__logo {
-    height: 75px;
-    width: 40%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .booking__info {
-    margin-left: 35px;
-  }
-  .booking .btn-gradient {
-    margin-right: 150px;
-  }
-  /*-- EXPLANATION--*/
-  .explanation__wrap {
-    margin-left: 18px;
-    flex-direction: column;
-  }
-  .explanation__num {
-    left: -11px;
-  }
-  .explanation__button {
-    width: 90%;
-    margin: 0 15px 20px 18px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__wrap {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .restaurant__container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    gap: 5%;
-  }
-  .restaurant__title {
-    padding-left: 5%;
-  }
-  .restaurant__card {
-    width: 45%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 200px;
-  }
-  .restaurant__card-icon {
-    top: 80%;
-    right: 8%;
-  }
-}
-@media screen and (min-width: 993px) {
-  .header__logo {
-    height: 100px;
-    width: 28%;
-  }
-  /*-- BOOKING--*/
-  .booking__wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  .booking__info {
-    margin-left: 40px;
-  }
-  .booking .btn-gradient {
-    margin: 30px 80px 25px 0;
-  }
-  /*-- EXPLANATION--*/
-  .explanation__wrap {
-    flex-direction: row;
-    margin-left: 30px;
-  }
-  .explanation__num {
-    margin-left: 55px;
-    left: -63px;
-  }
-  .explanation__button {
-    width: 29%;
-    padding: 20px;
-    border-radius: 25px;
-    margin-left: 25px;
-  }
-  .explanation__icon {
-    font-size: 18px;
-  }
-  /*-- RESTAURANT CARD--*/
-  .restaurant {
-    /*-- HEART--*/
-  }
-  .restaurant__container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 20px;
-  }
-  .restaurant__title {
-    margin-left: 30px;
-  }
-  .restaurant__card {
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 45%;
-  }
-  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
-    height: 150px;
-  }
-  .restaurant__card-img-1 {
-    -o-object-position: 0px -165px;
-       object-position: 0px -165px;
-  }
-  .restaurant__card-img-3 {
-    -o-object-position: 0px -175px;
-       object-position: 0px -175px;
-  }
-  .restaurant__card-img-4 {
-    -o-object-position: 0px -175px;
-       object-position: 0px -175px;
-  }
-  .restaurant__card-icon {
-    top: 76.8%;
-    right: 9.5%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .header__return {
-    top: 4%;
-    left: 10%;
-  }
-  .menu__image {
-    width: 100%;
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 45px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 1%;
-    left: 50%;
-  }
-  /*-- CARDS--*/
-  .choice__dish {
-    width: 90%;
-  }
-  .choice__dish:hover .menu__text {
-    width: 52%;
-  }
-  .choice .dish__description {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 992px) and (min-width: 767px) {
-  .header__return {
-    top: 1%;
-    left: 5%;
-  }
-  .menu__image {
-    height: 200px;
-  }
-  .menu__title {
-    margin: 15px 0 0 40px;
-  }
-  /*-- HEART--*/
-  .menu__title-icon {
-    top: 2.2%;
-    left: 88%;
-  }
-  /*-- CARDS--*/
-  .choice__dish {
-    width: 90%;
-    margin-left: 40px;
-  }
-  .choice__description {
-    font-size: 14px;
-  }
-  .choice__dish:hover .dish__text {
-    width: 70%;
-  }
-}
 @media screen and (min-width: 0px) {
   * {
     box-sizing: border-box;
@@ -501,7 +255,6 @@ i {
   .menu__main {
     display: flex;
     flex-direction: column;
-    position: relative;
     margin-top: 0;
     width: 100%;
     background-color: #EAEAEA;
@@ -566,7 +319,9 @@ i {
   }
   /*-- Cards--*/
   .course {
+    display: flex;
     margin: 1.2%;
+    flex-direction: column;
   }
   .course__dishes {
     display: flex;
@@ -859,7 +614,6 @@ i {
     margin-bottom: 20px;
     border-radius: 15px;
     height: auto;
-    width: 36%;
     box-shadow: 2px 5px 5px lightgray;
   }
   .restaurant__card-info {
@@ -970,4 +724,251 @@ p {
 
 .footer__nav {
   font-family: "Roboto", sans serif;
+}
+
+/*--PHONE LAYOUT--*/
+@media screen and (max-width: 767px) {
+  .header__logo {
+    height: 55px;
+    width: 50%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: column;
+  }
+  .booking__info {
+    margin-left: 30px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .explanation__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .explanation__num {
+    left: -12px;
+  }
+  .explanation__button {
+    width: 80%;
+    margin: 0 0 15px 25px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurant__title {
+    padding-left: 5%;
+  }
+  .restaurant__container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .restaurant__card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
+  }
+  .restaurant__card-icon {
+    right: 13.5%;
+    top: 76.8%;
+  }
+}
+/*-- TABLET--*/
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .header__logo {
+    height: 75px;
+    width: 40%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .booking__info {
+    margin-left: 35px;
+  }
+  .booking .btn-gradient {
+    margin-right: 150px;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    margin-left: 18px;
+    flex-direction: column;
+  }
+  .explanation__num {
+    left: -11px;
+  }
+  .explanation__button {
+    width: 90%;
+    margin: 0 15px 20px 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .restaurant__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 5%;
+  }
+  .restaurant__title {
+    padding-left: 5%;
+  }
+  .restaurant__card {
+    width: 45%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 200px;
+  }
+  .restaurant__card-icon {
+    top: 80%;
+    right: 8%;
+  }
+}
+@media screen and (min-width: 993px) {
+  .header__logo {
+    height: 100px;
+    width: 28%;
+  }
+  /*-- BOOKING--*/
+  .booking__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .booking__info {
+    margin-left: 40px;
+  }
+  .booking .btn-gradient {
+    margin: 30px 80px 25px 0;
+  }
+  /*-- EXPLANATION--*/
+  .explanation__wrap {
+    flex-direction: row;
+    margin-left: 30px;
+  }
+  .explanation__num {
+    margin-left: 55px;
+    left: -63px;
+  }
+  .explanation__button {
+    width: 29%;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 25px;
+  }
+  .explanation__icon {
+    font-size: 18px;
+  }
+  /*-- RESTAURANT CARD--*/
+  .restaurant {
+    /*-- HEART--*/
+  }
+  .restaurant__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .restaurant__title {
+    margin-left: 30px;
+  }
+  .restaurant__card {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 45%;
+  }
+  .restaurant__card-img-1, .restaurant__card-img-2, .restaurant__card-img-3, .restaurant__card-img-4 {
+    height: 150px;
+  }
+  .restaurant__card-img-1 {
+    -o-object-position: 0px -165px;
+       object-position: 0px -165px;
+  }
+  .restaurant__card-img-3 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
+  }
+  .restaurant__card-img-4 {
+    -o-object-position: 0px -175px;
+       object-position: 0px -175px;
+  }
+  .restaurant__card-icon {
+    top: 76.8%;
+    right: 9.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__return {
+    top: 2%;
+    left: 10%;
+  }
+  .menu__image {
+    width: 100%;
+    height: 200px;
+  }
+  .menu__title {
+    margin: 15px 0 0 45px;
+  }
+  /*-- HEART--*/
+  .menu__title-icon {
+    top: 1%;
+    left: 50%;
+  }
+  /*-- CARDS--*/
+  .choice__dish {
+    width: 90%;
+  }
+  .choice__dish:hover .menu__text {
+    width: 52%;
+  }
+  .choice .dish__description {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .header__return {
+    top: 3%;
+    left: 5%;
+  }
+  .menu__image {
+    height: 200px;
+  }
+  .menu__title {
+    margin: 15px 0 0 15px;
+  }
+  /*-- HEART--*/
+  .menu__title-icon {
+    top: 2.2%;
+    left: 94.2%;
+  }
+  /*-- CARDS--*/
+  .choice__dish {
+    width: 90%;
+    margin-left: 40px;
+  }
+  .choice__description {
+    font-size: 14px;
+  }
+  .choice__dish:hover .dish__text {
+    width: 70%;
+  }
 }
