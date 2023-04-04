@@ -284,7 +284,7 @@ i {
     display: inline-block;
     position: absolute;
     left: 96%;
-    top: 2%;
+    top: 33%;
     font-size: 20px;
   }
   /* css for solid heart before the hover */
@@ -918,20 +918,20 @@ p {
 }
 @media screen and (max-width: 767px) {
   .header__return {
-    top: 2%;
-    left: 10%;
+    top: 4%;
+    left: 6%;
   }
   .menu__image {
     width: 100%;
     height: 200px;
   }
   .menu__title {
-    margin: 15px 0 0 45px;
+    margin: 15px 0 0 15px;
   }
   /*-- HEART--*/
   .menu__title-icon {
-    top: 1%;
-    left: 50%;
+    top: 40%;
+    left: 88%;
   }
   /*-- CARDS--*/
   .choice__dish {
@@ -957,8 +957,8 @@ p {
   }
   /*-- HEART--*/
   .menu__title-icon {
-    top: 2.2%;
-    left: 94.2%;
+    top: 28%;
+    left: 95%;
   }
   /*-- CARDS--*/
   .choice__dish {
